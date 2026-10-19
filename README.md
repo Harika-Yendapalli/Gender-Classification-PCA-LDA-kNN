@@ -1,8 +1,8 @@
-# Gender Classification Using PCA, LDA and k-NN
+# Gender Classification from Facial Images Using PCA, LDA and k-NN
 
 A biometric system that classifies facial images as **male** or **female** using classical pattern recognition techniques, implemented from scratch in **MATLAB**: Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) for feature extraction, and a custom **k-Nearest Neighbors** classifier with cosine similarity.
 
-Built for **CSCI 158 (Spring 2025)** by **Harika Yendapalli** and **Darpan Attri**.
+Built as a project for **CSCI 158 (Spring 2025)**.
 
 ---
 
@@ -88,12 +88,3 @@ Two pipelines are compared:
 - Test on larger, more diverse benchmark datasets
 - Improve robustness to lighting, pose and occlusion
 - Compare with a lightweight CNN baseline
-
----
-
-## Authors
-
-- **Harika Yendapalli**
-- **Darpan Attri**
-
-Both contributed equally to the code, research and report.
