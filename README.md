@@ -4,13 +4,13 @@ A biometric system that classifies facial images as **male** or **female** using
 
 Built as a project for **CSCI 158 (Spring 2025)**.
 
----
+
 
 ## Why Classical Methods?
 
 Deep learning models like CNNs reach high accuracy but need large datasets and heavy computation. This project explores how far lightweight, interpretable techniques can go for gender classification, which suits small datasets, low-power devices and situations where you need to explain how a decision was made.
 
----
+
 
 ## How It Works
 
@@ -30,7 +30,7 @@ Two pipelines are compared:
 - **PCA + k-NN**
 - **PCA → LDA + k-NN**
 
----
+
 
 ## Results
 
@@ -53,7 +53,7 @@ Two pipelines are compared:
 - Confusion matrices showed balanced performance across both classes, with no strong bias toward either gender.
 - Accuracy depends heavily on the number of PCA components and the value of k, so these were tuned for each dataset size.
 
----
+
 
 ## Repository Contents
 
@@ -65,7 +65,7 @@ Two pipelines are compared:
 | `Facial Recognition - CSCI 158 .pptx` | Presentation slides |
 | `Datasets/` | Face image datasets (100, 200 and large set), each split into `male/` and `female/` folders |
 
----
+
 
 ## How to Run
 
@@ -80,7 +80,7 @@ Two pipelines are compared:
 3. Optionally adjust the settings at the top of the file (`k_pca_main`, `k_pca_lda`, `k`, `num_male`, `num_female`) to match the table above.
 4. Run the script. It prints the accuracy and confusion matrix for both pipelines and plots the ROC curves.
 
----
+
 
 ## Future Work
 
